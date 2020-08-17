@@ -1,0 +1,14 @@
+{
+  "name": "Event Listener Tracker",
+  "version": "1.0",
+  "description": "Let developers know all event listeners currently on a webpage",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "manifest_version": 2
+}
